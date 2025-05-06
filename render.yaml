@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: technofoundation
+    env: static
+    buildCommand: ""            # No build needed for static HTML
+    staticPublishPath: "./"     # Deploy from root (not /build)
